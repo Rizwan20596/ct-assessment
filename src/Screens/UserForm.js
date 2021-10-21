@@ -92,29 +92,31 @@ const UserForm = () => {
             />
           </div>
         </div>
-        <div className="form-group mt-2">
-          <label htmlFor="company" className="font-weight-bold">
-            Company:
-          </label>
-          <input
-            type="text"
-            className="form-control"
-            defaultValue={stateObj?.company?.name}
-            placeholder="Company"
-          />
-        </div>
-        <div className="form-group mt-2">
-          <label htmlFor="company" className="font-weight-bold">
-            Image:
-          </label>
-          <input
-            type="file"
-            className="form-control"
-            onChange={e => {
-              handleChange(e);
-            }}
-            placeholder="Company"
-          />
+        <div className="row">
+          <div className="col-md-6 mt-2">
+            <label htmlFor="company" className="font-weight-bold">
+              Company:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              defaultValue={stateObj?.company?.name}
+              placeholder="Company"
+            />
+          </div>
+          <div className="col-md-6 mt-2">
+            <label htmlFor="company" className="font-weight-bold">
+              Image:
+            </label>
+            <input
+              type="file"
+              className="form-control"
+              onChange={e => {
+                handleChange(e);
+              }}
+              placeholder="Company"
+            />
+          </div>
         </div>
       </form>
     </div>
