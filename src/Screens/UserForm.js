@@ -14,7 +14,6 @@ const UserForm = () => {
 
   const handleChange = e => {
     setFile(URL.createObjectURL(e.target.files[0]));
-    console.log(fileObj);
   };
 
   return (
