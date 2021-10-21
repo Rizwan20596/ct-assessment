@@ -31,8 +31,8 @@ const UserForm = () => {
           />
         </div>
         <div className="form-group mt-2  ">
-          <label htmlFor="guest" className="font-weight-bold">
-            Guard Type:
+          <label htmlFor="" className="font-weight-bold">
+            Select to change the User:
           </label>
           <select
             type="text"
