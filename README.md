@@ -1,7 +1,7 @@
-#Follow the below steps to run the app
-Clone the project,
-run npm install to install all the dependencies
-run npm start to start the application
+#Follow the below steps to run the app ->
+Clone the project, ->
+run npm install to install all the dependencies ->
+run npm start to start the application -> That's it, you're all set to use the app
 
 # Getting Started with Create React App
 
